@@ -10,7 +10,7 @@ export default function ProductList({ onSelect, addToCart }) {
   const [filtered, setFiltered] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Filters ni diri
+  // Filters state
   const [searchTerm, setSearchTerm] = useState('');
   const [category, setCategory] = useState('all');
   const [sortKey, setSortKey] = useState('none');
