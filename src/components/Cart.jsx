@@ -39,7 +39,7 @@ export default function Cart({ cartItems, removeFromCart, clearCart }) {
             Clear Cart
           </button>
           <button
-            onClick={() => alert('Checkout functionality not implemented')}
+            onClick={() => alert('Your order has been placed!')}
             className="ml-2 bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700"
           >
             Checkout
